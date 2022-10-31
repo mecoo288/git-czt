@@ -19,7 +19,7 @@ git cz init
 {
   "config": {
     "commitizen": {
-      "path": "./node_modules/git-czt/lib/cz"
+      "path": "node_modules/git-czt/lib/cz"
     }
   }
 }
