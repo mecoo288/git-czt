@@ -8,6 +8,11 @@ npm install -g commitizen
 npm install --save-dev git-czt
 ```
 
+### 初始化配置文件
+
+```shell
+git cz init
+```
 `package.json`:
 
 ```json
