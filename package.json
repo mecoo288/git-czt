@@ -1,6 +1,6 @@
 {
   "name": "git-czt",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
   "repository": {
     "type": "git",
@@ -8,16 +8,17 @@
   },
   "homepage": "https://github.com/streamich/git-cz",
   "license": "Unlicense",
-
   "main": "lib/cz.js",
   "scripts": {
     "test": "echo 'hello world'"
   },
-  "keywords": [],
+  "keywords": [
+    "git-czt",
+    "git",
+    "git-cz"
+  ],
   "author": "",
-  "devDependencies": {
-    "any-shell-escape": "^0.1.1",
-    "browserify": "^17.0.0",
+  "dependencies": {
     "git-cz": "^4.9.0"
   },
   "config": {
