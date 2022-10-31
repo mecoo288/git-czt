@@ -6,20 +6,20 @@
     "git-czt": "./bin/git-czt.js",
     "gitczt": "./bin/git-czt.js"
   },
-  "main": "lib/cli.js",
+  "main": "lib/cz.js",
   "scripts": {
     "test": "node ./bin/git-czt 'feat: 123456'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "any-shell-escape": "^0.1.1",
     "git-cz": "^4.9.0"
   },
   "config": {
     "commitizen": {
-      "path": "./lib/cli"
+      "path": "./lib/cz.js"
     }
   }
 }
