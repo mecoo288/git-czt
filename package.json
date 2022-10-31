@@ -8,7 +8,7 @@
   },
   "main": "lib/cli.js",
   "scripts": {
-    "test": "node ./bin/git-czt"
+    "test": "node ./bin/git-czt 'feat: 123456'"
   },
   "keywords": [],
   "author": "",
