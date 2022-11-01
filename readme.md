@@ -8,11 +8,10 @@ npm install -g commitizen
 npm install --save-dev git-czt
 ```
 
-### 初始化配置文件
+### 环境配置
 
-```shell
-git cz init
-```
+1、修改package.json
+
 `package.json`:
 
 ```json
@@ -24,16 +23,21 @@ git cz init
   }
 }
 ```
+2、初始化配置文件
+```shell
+git cz init
+```
 
+3、提交使用
 提交git:
 
 ```shell
-git cz
-git cz "feat: hello world"
-git cz "feat: hello world  body: body info breaking: breaking info"
+git cz   //git-cz 原始写法
+git cz "feat: hello world"    //git-cz 快捷写法
+git cz "feat: hello world body: body info breaking: breaking info"
 ```
 
-支持git-cz参数配置:
+### 支持git-cz参数配置:
 
 - `scope`
 - `body`
