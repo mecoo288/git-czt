@@ -28,8 +28,7 @@ npm install --save-dev git-czt
 git cz init
 ```
 
-3、提交使用
-提交git:
+3、项目使用:
 
 ```shell
 git cz   //git-cz 原始写法
