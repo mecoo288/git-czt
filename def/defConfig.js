@@ -27,11 +27,6 @@ module.exports = {
   ],
   scopes: [],
   types: {
-    chore: {
-      description: 'Build process or auxiliary tool changes',
-      emoji: '🤖',
-      value: 'chore',
-    },
     feat: {
       value: 'feat',
       description: 'A new feature',
